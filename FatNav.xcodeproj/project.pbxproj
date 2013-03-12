@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		019279E416E9458100F5CDFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 019279E316E9458100F5CDFA /* UIKit.framework */; };
+		019279E616E9458100F5CDFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 019279E516E9458100F5CDFA /* Foundation.framework */; };
+		019279E816E9458100F5CDFA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 019279E716E9458100F5CDFA /* CoreGraphics.framework */; };
+		019279EE16E9458100F5CDFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 019279EC16E9458100F5CDFA /* InfoPlist.strings */; };
+		019279F016E9458100F5CDFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 019279EF16E9458100F5CDFA /* main.m */; };
+		019279F416E9458100F5CDFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 019279F316E9458100F5CDFA /* AppDelegate.m */; };
+		019279F616E9458100F5CDFA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 019279F516E9458100F5CDFA /* Default.png */; };
+		019279F816E9458100F5CDFA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 019279F716E9458100F5CDFA /* Default@2x.png */; };
+		019279FA16E9458100F5CDFA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 019279F916E9458100F5CDFA /* Default-568h@2x.png */; };
+		019279FD16E9458100F5CDFA /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 019279FB16E9458100F5CDFA /* MainStoryboard.storyboard */; };
+		01927A0016E9458100F5CDFA /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 019279FF16E9458100F5CDFA /* MasterViewController.m */; };
+		01927A0316E9458100F5CDFA /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01927A0216E9458100F5CDFA /* DetailViewController.m */; };
+		01927A0B16E945E800F5CDFA /* FatNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 01927A0A16E945E800F5CDFA /* FatNavigationBar.m */; };
+		01927A0E16EA7A9A00F5CDFA /* FatNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01927A0D16EA7A9A00F5CDFA /* FatNavigationController.m */; };
+		01927A1116EAAF2000F5CDFA /* DebuggingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01927A1016EAAF2000F5CDFA /* DebuggingView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		019279E016E9458100F5CDFA /* FatNav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FatNav.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		019279E316E9458100F5CDFA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		019279E516E9458100F5CDFA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		019279E716E9458100F5CDFA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		019279EB16E9458100F5CDFA /* FatNav-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FatNav-Info.plist"; sourceTree = "<group>"; };
+		019279ED16E9458100F5CDFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		019279EF16E9458100F5CDFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		019279F116E9458100F5CDFA /* FatNav-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FatNav-Prefix.pch"; sourceTree = "<group>"; };
+		019279F216E9458100F5CDFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		019279F316E9458100F5CDFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		019279F516E9458100F5CDFA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		019279F716E9458100F5CDFA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		019279F916E9458100F5CDFA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		019279FC16E9458100F5CDFA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		019279FE16E9458100F5CDFA /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		019279FF16E9458100F5CDFA /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		01927A0116E9458100F5CDFA /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		01927A0216E9458100F5CDFA /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		01927A0916E945E800F5CDFA /* FatNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FatNavigationBar.h; sourceTree = "<group>"; };
+		01927A0A16E945E800F5CDFA /* FatNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FatNavigationBar.m; sourceTree = "<group>"; };
+		01927A0C16EA7A9A00F5CDFA /* FatNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FatNavigationController.h; sourceTree = "<group>"; };
+		01927A0D16EA7A9A00F5CDFA /* FatNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FatNavigationController.m; sourceTree = "<group>"; };
+		01927A0F16EAAF2000F5CDFA /* DebuggingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebuggingView.h; sourceTree = "<group>"; };
+		01927A1016EAAF2000F5CDFA /* DebuggingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebuggingView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		019279DD16E9458100F5CDFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				019279E416E9458100F5CDFA /* UIKit.framework in Frameworks */,
+				019279E616E9458100F5CDFA /* Foundation.framework in Frameworks */,
+				019279E816E9458100F5CDFA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		019279D716E9458100F5CDFA = {
+			isa = PBXGroup;
+			children = (
+				019279E916E9458100F5CDFA /* FatNav */,
+				019279E216E9458100F5CDFA /* Frameworks */,
+				019279E116E9458100F5CDFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		019279E116E9458100F5CDFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				019279E016E9458100F5CDFA /* FatNav.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		019279E216E9458100F5CDFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				019279E316E9458100F5CDFA /* UIKit.framework */,
+				019279E516E9458100F5CDFA /* Foundation.framework */,
+				019279E716E9458100F5CDFA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		019279E916E9458100F5CDFA /* FatNav */ = {
+			isa = PBXGroup;
+			children = (
+				019279F216E9458100F5CDFA /* AppDelegate.h */,
+				019279F316E9458100F5CDFA /* AppDelegate.m */,
+				019279FB16E9458100F5CDFA /* MainStoryboard.storyboard */,
+				019279FE16E9458100F5CDFA /* MasterViewController.h */,
+				019279FF16E9458100F5CDFA /* MasterViewController.m */,
+				01927A0116E9458100F5CDFA /* DetailViewController.h */,
+				01927A0216E9458100F5CDFA /* DetailViewController.m */,
+				01927A0C16EA7A9A00F5CDFA /* FatNavigationController.h */,
+				01927A0D16EA7A9A00F5CDFA /* FatNavigationController.m */,
+				01927A0916E945E800F5CDFA /* FatNavigationBar.h */,
+				01927A0A16E945E800F5CDFA /* FatNavigationBar.m */,
+				01927A0F16EAAF2000F5CDFA /* DebuggingView.h */,
+				01927A1016EAAF2000F5CDFA /* DebuggingView.m */,
+				019279EA16E9458100F5CDFA /* Supporting Files */,
+			);
+			path = FatNav;
+			sourceTree = "<group>";
+		};
+		019279EA16E9458100F5CDFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				019279EB16E9458100F5CDFA /* FatNav-Info.plist */,
+				019279EC16E9458100F5CDFA /* InfoPlist.strings */,
+				019279EF16E9458100F5CDFA /* main.m */,
+				019279F116E9458100F5CDFA /* FatNav-Prefix.pch */,
+				019279F516E9458100F5CDFA /* Default.png */,
+				019279F716E9458100F5CDFA /* Default@2x.png */,
+				019279F916E9458100F5CDFA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		019279DF16E9458100F5CDFA /* FatNav */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01927A0616E9458100F5CDFA /* Build configuration list for PBXNativeTarget "FatNav" */;
+			buildPhases = (
+				019279DC16E9458100F5CDFA /* Sources */,
+				019279DD16E9458100F5CDFA /* Frameworks */,
+				019279DE16E9458100F5CDFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FatNav;
+			productName = FatNav;
+			productReference = 019279E016E9458100F5CDFA /* FatNav.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		019279D816E9458100F5CDFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Aged and Distilled";
+			};
+			buildConfigurationList = 019279DB16E9458100F5CDFA /* Build configuration list for PBXProject "FatNav" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 019279D716E9458100F5CDFA;
+			productRefGroup = 019279E116E9458100F5CDFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				019279DF16E9458100F5CDFA /* FatNav */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		019279DE16E9458100F5CDFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				019279EE16E9458100F5CDFA /* InfoPlist.strings in Resources */,
+				019279F616E9458100F5CDFA /* Default.png in Resources */,
+				019279F816E9458100F5CDFA /* Default@2x.png in Resources */,
+				019279FA16E9458100F5CDFA /* Default-568h@2x.png in Resources */,
+				019279FD16E9458100F5CDFA /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		019279DC16E9458100F5CDFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				019279F016E9458100F5CDFA /* main.m in Sources */,
+				019279F416E9458100F5CDFA /* AppDelegate.m in Sources */,
+				01927A0016E9458100F5CDFA /* MasterViewController.m in Sources */,
+				01927A0316E9458100F5CDFA /* DetailViewController.m in Sources */,
+				01927A0B16E945E800F5CDFA /* FatNavigationBar.m in Sources */,
+				01927A0E16EA7A9A00F5CDFA /* FatNavigationController.m in Sources */,
+				01927A1116EAAF2000F5CDFA /* DebuggingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		019279EC16E9458100F5CDFA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				019279ED16E9458100F5CDFA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		019279FB16E9458100F5CDFA /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				019279FC16E9458100F5CDFA /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01927A0416E9458100F5CDFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		01927A0516E9458100F5CDFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01927A0716E9458100F5CDFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FatNav/FatNav-Prefix.pch";
+				INFOPLIST_FILE = "FatNav/FatNav-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		01927A0816E9458100F5CDFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FatNav/FatNav-Prefix.pch";
+				INFOPLIST_FILE = "FatNav/FatNav-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		019279DB16E9458100F5CDFA /* Build configuration list for PBXProject "FatNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01927A0416E9458100F5CDFA /* Debug */,
+				01927A0516E9458100F5CDFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01927A0616E9458100F5CDFA /* Build configuration list for PBXNativeTarget "FatNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01927A0716E9458100F5CDFA /* Debug */,
+				01927A0816E9458100F5CDFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 019279D816E9458100F5CDFA /* Project object */;
+}
